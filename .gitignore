@@ -1,0 +1,6 @@
+.env
+.venv
+.Detector-Árboles-1
+videos
+runs
+__pycache__

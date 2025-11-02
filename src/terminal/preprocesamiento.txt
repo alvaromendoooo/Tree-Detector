@@ -1,0 +1,8 @@
+Speed: 2.4ms preprocess, 115.8ms inference, 0.6ms postprocess per image at shape (1, 3, 384, 640)
+
+Preprocesamiento = 2.4ms
+Inferencia (YOLO) = 115.8 ms
+Postprocesamiento = 0.6 ms
+Total por frame = 119 ms
+
+FPS_real = 1000ms / 119 = 8.4 FPS

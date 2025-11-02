@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['ciruelo', 'higera', 'melocotonero', 'naranjo', 'nectarino', 'olivo', 'pimientera', 'tomatera', 'vid']
+
+roboflow:
+  workspace: lvaro-czewi
+  project: detector-arboles-q7bpy
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/lvaro-czewi/detector-arboles-q7bpy/dataset/1

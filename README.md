@@ -1,18 +1,42 @@
-Información inicial
-Tree Detector es un proyecto de visión por computador desarrollado con OpenCV que permite identificar diferentes tipos de árboles y plantas a partir de imágenes.
-Actualmente, el modelo es capaz de reconocer las siguientes clases:
+<h1>🌳 Tree Detector</h1>
 
-Melocotonero, Vid, Olivo, Tomatera, Pimentera, Naranjo, Ciruelo, Higuera, Nectarino.
+Tree Detector es un proyecto de visión por computador desarrollado con OpenCV y TensorFlow, diseñado para identificar distintos tipos de árboles y plantas a partir de imágenes.
 
-Descripción del proyecto
+<h1>📘 Descripción del proyecto</h1>
 
-El objetivo del proyecto es crear un sistema automático de detección de especies vegetales a partir de imágenes, utilizando técnicas de procesamiento de imagen y aprendizaje automático.
-El modelo puede emplearse para aplicaciones agrícolas, monitorización de cultivos o estudios medioambientales.
+El objetivo principal de Tree Detector es desarrollar un sistema automático capaz de detectar y clasificar especies vegetales mediante técnicas de procesamiento digital de imágenes y aprendizaje automático.
 
-Tecnologías utilizadas
+Este modelo puede aplicarse en diversos contextos, como:
 
-* Python 3.x
+- Agricultura de precisión
 
-* OpenCV – procesamiento de imagen
+- Monitorización y gestión de cultivos
 
-* TensorFlow / keras – entrenamiento de modelos
+- Estudios medioambientales y de biodiversidad
+
+Actualmente, el modelo es capaz de reconocer las siguientes clases de especies vegetales:
+
+> Melocotonero, Vid, Olivo, Tomatera, Pimentera, Naranjo, Ciruelo, Higuera y Nectarino.
+
+<h1>🧠 Tecnologías utilizadas</h1>
+
+* Python 3.x – Lenguaje principal del proyecto
+
+* OpenCV – Procesamiento y análisis de imágenes
+
+* TensorFlow / Keras – Entrenamiento y evaluación del modelo de clasificación
+* Librería de Ultralytics
+* Model YOLOv11s
+
+<h1>🚀 Mejoras a futuro</h1>
+
+Ampliar el conjunto de datos con nuevas especies.
+
+Mejorar la precisión del modelo mediante técnicas de data augmentation.
+
+Implementar una interfaz gráfica o API para facilitar su uso.
+
+<h1>👨‍💻 Autor</h1>
+
+Álvaro Mendo  
+Proyecto desarrollado en el marco de OpenCV Environment (opcenv).
